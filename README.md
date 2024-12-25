@@ -15,17 +15,8 @@ A Zsh plugin that enhances the `alias` command to show documentation comments al
 Simply type `alias` without arguments to see all your aliases along with their documentation comments:
 
 ```zsh
-# Opens VS Code in current directory
-alias code='code .'
-
-# Git status shortcut
-alias gs='git status'
-```
-
-Creating new aliases works exactly as before:
-
-```zsh
-alias gs='git status'
+alias vi='nvim .' # Opens Neovim in current directory
+alias gs='git status' # Git status shortcut
 ```
 
 ## Installation
